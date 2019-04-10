@@ -14,6 +14,7 @@ def intersection(array1, array2)
     while array2[j] != nil
       if array1[i] == array2[j]
         intersection << array2[j]
+        break
       end
       j += 1
     end
