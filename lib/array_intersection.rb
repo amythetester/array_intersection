@@ -1,6 +1,6 @@
 # Returns a new array to that contains elements in the intersection of the two input arrays
-# Time complexity: O(n) where n is the length of array1
-# Space complexity: O(n) where n is the length of the intersection array
+# Time complexity: O(nm) where n is the length of array1 and m is the length of array2
+# Space complexity: O(min(n,m)) where n is the length of array1 and m is the length of array2
 def intersection(array1, array2)
   intersection = []
   return intersection if array1 == nil ||
